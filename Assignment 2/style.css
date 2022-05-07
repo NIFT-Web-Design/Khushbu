@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: url("https://www.htmlcsscolor.com/preview/gallery/B3CFDD.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+}
+
+.bold {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+}
+
+pre {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.resume {
+  width: 850px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+  border: solid 2px #4f6f7e;
+}
+
+.resume_left {
+  width: 290px;
+  background: #f4f4f4;
+}
+
+.resume_profile {
+  width: 100%;
+  height: 280px;
+  padding-left: 65px;
+  padding-top: 35px;
+}
+
+.resume_profile img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #4f6f7e;
+}
+
+.resume_info h1 {
+  font-weight: 700;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.resume_content {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 20px;
+}
+
+.resume_item {
+  padding: 20px 0;
+  padding-left: 30px;
+  border-left: solid 2px #5e5a5e;
+  position: relative;
+}
+
+.resume_item:before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #4f6f7e;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, 140%);
+}
+
+.resume_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.resume_right {
+  width: 697px;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.skills {
+  height: 180px;
+}
+
+.skill_content {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.skill_bar {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.skill_name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.skill_left {
+  width: 55%;
+  height: 130px;
+  margin-top: 20px;
+}
+
+.skill_right {
+  width: 45%;
+  height: 130px;
+  margin-top: 20px;
+}
+
+.skills .full {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #000;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-right: 1px;
+}
+
+.skill_level {
+  padding-left: 20px;
+}
+
+.skills .not_full {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  border: solid 1px #000;
+  margin-top: 10px;
+  margin-right: 1px;
+}
